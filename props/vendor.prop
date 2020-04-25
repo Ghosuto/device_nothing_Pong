@@ -97,6 +97,9 @@ vendor.qc2audio.per_frame.flac.dec.enabled=true
 # Chipset
 ro.soc.manufacturer=QTI
 
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
+
 # DPM
 persist.vendor.dpm.vndr.feature=11
 persist.vendor.dpm.vndr.halservice.enable=1
