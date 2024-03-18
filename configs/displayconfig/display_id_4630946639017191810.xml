@@ -9,11 +9,11 @@
         </point>
         <point>
             <value>0.858154296875</value>
-            <nits>498.0</nits>
+            <nits>500.0</nits>
         </point>
         <point>
             <value>1.0</value>
-            <nits>998.0</nits>
+            <nits>1000.0</nits>
         </point>
     </screenBrightnessMap>
     <!-- root node for HBM-->
@@ -21,7 +21,7 @@
         <!-- Transition point brightness from normal to HBM mode -->
         <transitionPoint>0.858154296875</transitionPoint>
         <!-- Minimum lux to enter HBM -->
-        <minimumLux>6001</minimumLux>
+        <minimumLux>7000</minimumLux>
         <!-- Time limitation for HBM-->
         <timing>
             <timeWindowSecs>0</timeWindowSecs>
