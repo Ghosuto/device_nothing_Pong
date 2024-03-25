@@ -354,7 +354,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # QSSI overlays
 PRODUCT_PACKAGES += \
-    CarrierConfigResCommon \
     FrameworksResCommon \
     NTWifiResCommon \
     SystemUIResCommon \
