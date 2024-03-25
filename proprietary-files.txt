@@ -497,6 +497,7 @@ vendor/lib64/libarcsoft_hdr_detection.so
 vendor/lib64/libarcsoft_high_dynamic_range.so
 vendor/lib64/libarcsoft_high_dynamic_range_v5.so
 vendor/lib64/libarcsoft_low_light_hdr.so
+vendor/lib64/libarcsoft_mf_superresolution.so
 vendor/lib64/libarcsoft_mcxmflpolicy.so
 vendor/lib64/libarcsoft_night_video.so
 vendor/lib64/libarcsoft_portrait_distortion_correction.so

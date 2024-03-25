@@ -128,6 +128,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.7.vendor \
     camera.device@1.0-impl \
     libcamera2ndk_vendor \
+    libcamera_metadata_shim \
     vendor.qti.hardware.camera.aon@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
@@ -320,6 +321,9 @@ PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
     libcodec2_hidl@1.0.vendor \
     libcodec2_vndk.vendor
+
+# NT Camera
+$(call inherit-product, vendor/nothing/camera/nothing-camera.mk)
 
 # Net
 PRODUCT_PACKAGES += \

@@ -364,4 +364,10 @@
 
      <!-- Fingerprint from stock ROM -->
     <string name="config_stockFingerprint" translatable="false">Nothing/Pong/Pong:12/SKQ1.230722.001/2401161446:user/release-keys</string>
+
+    <!-- The list of package IDs that are allowed to use aux cameras.
+         NOTE: If this list is empty then all apps will be able to use aux cameras. -->
+    <string-array name="config_cameraAuxPackageAllowList" translatable="false">
+        <item>com.nothing.camera</item>
+    </string-array>
 </resources>
