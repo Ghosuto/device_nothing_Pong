@@ -169,6 +169,12 @@ vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libshoebox.so
 
+# Audio FX AudioSphere
+system_ext/etc/permissions/audiosphere.xml
+system_ext/framework/audiosphere.jar
+vendor/bin/audioflacapp
+vendor/bin/loadalgo
+
 # Audio firmware
 vendor/firmware/stereo.cnt
 vendor/firmware/tfa98xx.cnt
