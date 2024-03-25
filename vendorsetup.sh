@@ -4,3 +4,4 @@ git clone https://gitlab.com/GhosutoX/android_vendor_nothing_Pong.git vendor/not
 git clone https://github.com/HELLBOY017/kernel_nothing_sm8475.git -b inline kernel/nothing/sm8475
 rm -rf device/qcom/sepolicy_vndr/sm8450 
 git clone https://github.com/ProjectGhostOS/device_qcom_sepolicy_vndr.git device/qcom/sepolicy_vndr/sm8450
+git clone https://github.com/ProjectGhostOS/hardware_dolby.git hardware/dolby
