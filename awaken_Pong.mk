@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from Pong device
 $(call inherit-product, device/nothing/Pong/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Awaken stuff.
+$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_Pong
+PRODUCT_NAME := awaken_Pong
 PRODUCT_DEVICE := Pong
 PRODUCT_MANUFACTURER := nothing
 PRODUCT_BRAND := Nothing
@@ -22,6 +22,9 @@ PRODUCT_MODEL := A065
 
 PRODUCT_SYSTEM_NAME := Pong
 PRODUCT_SYSTEM_DEVICE := Pong
+
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_CHARACTERISTICS := nosdcard
 
