@@ -503,6 +503,3 @@ subsystem mem_buf_vm
 
 # devcoredump data attributes
 /sys/class/devcoredump/devcd*                           data                            0600    system  system
-
-# Charger
-/sys/class/qcom-battery                                 charging_en                     0660    system  system
