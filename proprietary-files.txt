@@ -1613,9 +1613,6 @@ vendor/lib64/libssd.so
 vendor/lib64/libtzdrmgenprov.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 
-# RIL - from mondrian HyperOS V816.0.3.0UMNMIXM
-vendor/lib64/libqcrilNrSmsModule.so|8d9fea3cfd3d46939180a18ddcb57d2ef59cf521
-
 # RIL
 product/app/uimgbaservice/uimgbaservice.apk
 product/etc/permissions/UimGba.xml
@@ -1692,6 +1689,7 @@ vendor/lib64/libqcrilNrLogger.so
 vendor/lib64/libqcrilNrPbmModule.so
 vendor/lib64/libqcrilNrQtiBus.so
 vendor/lib64/libqcrilNrQtiMutex.so
+vendor/lib64/libqcrilNrSmsModule.so
 vendor/lib64/libqcrilNrSocketModule.so
 vendor/lib64/libqcrilNrVoiceModule.so
 vendor/lib64/libqcrildataaidl.so
