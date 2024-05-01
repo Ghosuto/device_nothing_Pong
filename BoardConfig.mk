@@ -110,9 +110,6 @@ BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_KERNEL_SOURCE := kernel/nothing/sm8475
 TARGET_KERNEL_CONFIG := vendor/meteoric_defconfig ksu.config
 
-# Kernel Supported Features
-BOARD_RAMDISK_USE_LZ4 := true
-
 # Kernel modules
 BOARD_VENDOR_KERNEL_MODULES_BLOCKLIST_FILE := $(DEVICE_PATH)/modules.blocklist
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
