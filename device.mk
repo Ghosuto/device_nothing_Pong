@@ -271,7 +271,7 @@ PRODUCT_PACKAGES += \
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster-V3-ndk_platform.vendor \
-    android.hardware.keymaster@4.1.vendor \
+    android.hardware.keymaster@4.0.vendor \
     libkeymaster_messages.vendor
 
 # Keymint
