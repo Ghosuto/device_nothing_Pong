@@ -17,7 +17,7 @@
     </screenBrightnessMap>
     <highBrightnessMode enabled="true">
         <transitionPoint>0.8615196078431</transitionPoint> <!-- 3515/4080 -->
-        <minimumLux>6001</minimumLux>
+        <minimumLux>7000</minimumLux>
         <timing>
             <timeWindowSecs>0</timeWindowSecs>
             <timeMaxSecs>0</timeMaxSecs>
