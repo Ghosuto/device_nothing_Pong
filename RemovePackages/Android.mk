@@ -9,6 +9,10 @@ LOCAL_OVERRIDES_PACKAGES := \
     Chrome-Stub \
     Drive \
     GoogleCamera \
+    Camera \
+    Camera2 \
+    Aperture \
+    Recorder \
     Maps \
     MyVerizonServices \
     OBDM_Permissions \
