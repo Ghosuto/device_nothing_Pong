@@ -14,6 +14,9 @@ $(call inherit-product, device/nothing/Pong/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# BCR
+$(call inherit-product, vendor/bcr/bcr.mk)
+
 PRODUCT_NAME := lineage_Pong
 PRODUCT_DEVICE := Pong
 PRODUCT_MANUFACTURER := nothing
