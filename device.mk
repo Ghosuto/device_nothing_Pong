@@ -277,6 +277,10 @@ PRODUCT_PACKAGES += \
     qrtr-lookup \
     libqrtr
 
+# Perf
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml
+
 # Powershare
 PRODUCT_PACKAGES += \
     vendor.aospa.powershare-service
