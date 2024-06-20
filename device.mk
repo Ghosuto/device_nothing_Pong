@@ -269,6 +269,7 @@ PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.nt.rc \
     init.qcom.early_boot.sh \
+    init.kernel.post_boot.sh \
     init.qcom.rc \
     init.qcom.recovery.rc \
     init.qcom.sh \
