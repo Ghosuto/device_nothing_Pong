@@ -8,9 +8,6 @@ ro.af.client_heap_size_kbyte=7168
 # Blur
 ro.launcher.blur.appLaunch=0
 
-# Camera
-ro.camerax.extensions.enabled=true
-
 # GMS
 ro.opa.eligible_device=true
 
