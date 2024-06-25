@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_Pong.mk
+    $(LOCAL_DIR)/derp_Pong.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_Pong-user \
-    lineage_Pong-userdebug \
-    lineage_Pong-eng
+    derp_Pong-user \
+    derp_Pong-userdebug \
+    derp_Pong-eng
