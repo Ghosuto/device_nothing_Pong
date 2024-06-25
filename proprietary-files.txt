@@ -771,6 +771,16 @@ vendor/lib64/libdiag.so
 vendor/lib64/libdiagjni.so
 vendor/lib64/vendor.qti.diaghal@1.0.so
 
+# Dirac
+system/etc/permissions/com.dirac.acs.xml
+system/etc/sysconfig/preinstalled-packages-dirac.xml
+system/priv-app/DiracAudioControlService_DMP/DiracAudioControlService_DMP.apk
+system/priv-app/NothingDiracService_DMP/NothingDiracService_DMP.apk
+vendor/etc/dirac/dirac_resource.dar
+vendor/etc/dirac/interface.json
+vendor/lib64/libdirac.so
+vendor/lib64/soundfx/libdiraceffect-afm.so
+
 # Display (Features)
 vendor/bin/feature_enabler_client
 vendor/etc/init/feature_enabler_client.rc
