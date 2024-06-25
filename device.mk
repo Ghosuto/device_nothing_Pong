@@ -128,6 +128,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.7.vendor \
     camera.device@1.0-impl \
+    libexif.vendor \
+    libpng.vendor \
+    libutilscallstack.vendor \
     libcamera2ndk_vendor \
     vendor.qti.hardware.camera.aon@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
@@ -335,7 +338,8 @@ PRODUCT_COPY_FILES += \
 
 # Net
 PRODUCT_PACKAGES += \
-    android.system.net.netd@1.1.vendor
+    android.system.net.netd@1.1.vendor \
+    libnetutils.vendor
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -428,7 +432,9 @@ PRODUCT_COPY_FILES += \
 
 # QMI
 PRODUCT_PACKAGES += \
+    libcurl.vendor \
     libjson \
+    libjsoncpp.vendor \
     libqti_vndfwk_detect.vendor \
     libqti_vndfwk_detect_vendor \
     libvndfwk_detect_jni.qti.vendor \
@@ -444,7 +450,8 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.3.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
     libprotobuf-cpp-full \
-    librmnetctl
+    librmnetctl \
+    libsqlite.vendor
 
 # Sensors
 PRODUCT_PACKAGES += \
