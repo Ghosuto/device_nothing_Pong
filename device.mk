@@ -366,7 +366,9 @@ PRODUCT_BOOT_JARS += \
 # OMX
 PRODUCT_PACKAGES += \
     libOmxCore \
-    libstagefrighthw
+    libstagefrighthw \
+    libstagefright_softomx_plugin.vendor \
+    libstagefright_omx.vendor
 
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
