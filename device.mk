@@ -603,6 +603,6 @@ PRODUCT_BOOT_JARS += \
 $(call inherit-product, vendor/nothing/Pong/Pong-vendor.mk)
 
 # Remove unwanted packages
-PRODUCT_PACKAGES += \
-    RemovePackages
+# PRODUCT_PACKAGES += \
+#    RemovePackages
 

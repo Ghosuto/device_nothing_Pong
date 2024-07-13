@@ -14,9 +14,6 @@ $(call inherit-product, device/nothing/Pong/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# BCR
-$(call inherit-product, vendor/bcr/bcr.mk)
-
 PRODUCT_NAME := lineage_Pong
 PRODUCT_DEVICE := Pong
 PRODUCT_MANUFACTURER := nothing
@@ -29,7 +26,6 @@ PRODUCT_SYSTEM_DEVICE := Pong
 # Flags
 TARGET_USES_DOLBY := true
 TARGET_HAS_UDFPS := true
-WITH_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 
