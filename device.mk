@@ -156,7 +156,8 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
 # DeviceExtras
 PRODUCT_PACKAGES += \
-    Pong_DeviceExtras
+    Pong_DeviceExtras \
+    XiaomiDolby
 
 # Display
 PRODUCT_COPY_FILES += \
@@ -191,7 +192,18 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
 
 # Dolby
-$(call inherit-product, hardware/dolby/dolby.mk)
+
+# Dolby Effects Props
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.audio.delta.refresh=true \
+    ro.vendor.audio.dolby.surround.enable=true
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/dolby/configs/dax-default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default.xml \
+    $(LOCAL_PATH)/audio/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml
+
+PRODUCT_COPY_FILES += \
+    prebuilts/vndk/v33/arm64/arch-arm64-armv8-a/shared/vndk-core/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_foundation-v33.so
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -325,8 +337,8 @@ PRODUCT_PACKAGES += \
     libavservices_minijail \
     libavservices_minijail.vendor \
     libcodec2_hidl@1.0.vendor \
-    libcodec2_vndk.vendor \
     libcodec2_soft_common.vendor \
+    libcodec2_vndk.vendor \
     libpalclient
 
 # msm_irqbalance

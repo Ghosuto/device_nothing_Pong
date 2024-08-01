@@ -46,7 +46,7 @@ TARGET_2ND_CPU_VARIANT := cortex-a76
 AUDIO_FEATURE_ENABLED_DLKM := true
 AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT := true
 AUDIO_FEATURE_ENABLED_GKI := true
-AUDIO_FEATURE_ENABLED_HW_ACCELERATED_EFFECTS := true
+AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP := true
 AUDIO_FEATURE_ENABLED_INSTANCE_ID := true
 AUDIO_FEATURE_ENABLED_PROXY_DEVICE := true
 AUDIO_FEATURE_ENABLED_SSR := true
@@ -81,10 +81,12 @@ TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.nt
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     $(DEVICE_PATH)/device_framework_matrix.xml \
-    $(DEVICE_PATH)/vendor_framework_compatibility_matrix.xml 
+    $(DEVICE_PATH)/vendor_framework_compatibility_matrix.xml \
+    $(DEVICE_PATH)/dolby/manifest/dolby_framework_matrix.xml 
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 DEVICE_MATRIX_FILE += hardware/qcom-caf/common/compatibility_matrix.xml
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+DEVICE_MANIFEST_FILE += \
+    $(DEVICE_PATH)/manifest.xml
 
 # Kernel
 BOARD_BOOTCONFIG := \
