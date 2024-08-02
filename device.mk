@@ -207,7 +207,8 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/dolby/permissions,$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions)
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/dolby/configs/dax-default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default.xml
+    $(LOCAL_PATH)/dolby/configs/dax-default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default.xml \
+    $(LOCAL_PATH)/audio/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml
 
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v33/arm64/arch-arm64-armv8-a/shared/vndk-core/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_foundation-v33.so
