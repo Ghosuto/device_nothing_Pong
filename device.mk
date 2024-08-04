@@ -156,7 +156,8 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
 # DeviceExtras
 PRODUCT_PACKAGES += \
-    Pong_DeviceExtras
+    Pong_DeviceExtras \
+    XiaomiDolby
 
 # Display
 PRODUCT_COPY_FILES += \

@@ -91,7 +91,7 @@ DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 DEVICE_MATRIX_FILE += hardware/qcom-caf/common/compatibility_matrix.xml
 DEVICE_MANIFEST_FILE += \
     $(DEVICE_PATH)/manifest.xml \
-    $(DEVICE_PATH)/dolby/manifest/vendor.dolby.hardware.dms@2.0-service.xml
+    $(DEVICE_PATH)/dolby/manifest/vendor.dolby.hardware.dms.xml
 
 # Kernel
 BOARD_BOOTCONFIG := \
